@@ -1,14 +1,13 @@
 {
-    "publisherId": "tacitred",
-    "offerId": "tacitred-defender-threat-intelligence",
-    "firstPublishDate": "2025-01-01",
+    "publisherId": "data443",
+    "offerId": "azure-sentinel-solution-tacitred-defender-ti",
+    "firstPublishDate": "2025-11-10",
     "providers": [
-        "TacitRed"
+        "Data443 Risk Mitigation, Inc."
     ],
     "categories": {
         "domains": [
-            "Security - Threat Protection",
-            "Security - SOAR"
+            "Security - Threat Intelligence"
         ],
         "verticals": []
     },
