@@ -478,10 +478,11 @@
         "contentSchemaVersion": "3.0.0",
         "displayName": "TacitRed-Defender-ThreatIntelligence",
         "publisherDisplayName": "Data443 Risk Mitigation, Inc.",
-        "descriptionHtml": "<p>The TacitRed Defender Threat Intelligence solution integrates TacitRed's threat intelligence feed with Microsoft Sentinel. It automatically retrieves compromised credentials and other threat indicators from TacitRed and ingests them into Microsoft Sentinel using the Upload API for enhanced threat detection.</p><p><strong>Function Apps:</strong> 1, <strong>Playbooks:</strong> 1</p>",
+        "descriptionHtml": "<p><strong>Note:</strong> Please refer to the following before installing the solution:</p>\n<p>• Review the solution <a href=\"https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/TacitRed-Defender-ThreatIntelligence/ReleaseNotes.md\">Release Notes</a></p>\n<p>• There may be <a href=\"https://aka.ms/sentinelsolutionsknownissues\">known issues</a> pertaining to this Solution, please refer to them before installing.</p>\n<p>The TacitRed Defender Threat Intelligence solution integrates TacitRed's threat intelligence feed with Microsoft Sentinel. It automatically retrieves compromised credentials and other threat indicators from TacitRed and ingests them into Microsoft Sentinel using the Upload API for enhanced threat detection.</p>\n<p><strong>Function Apps:</strong> 1, <strong>Playbooks:</strong> 1</p>\n<p><a href=\"https://aka.ms/azuresentinel\">Learn more about Microsoft Sentinel</a> | <a href=\"https://aka.ms/azuresentinelsolutionsdoc\">Learn more about Solutions</a></p>\n",
         "contentKind": "Solution",
         "contentProductId": "[variables('_solutioncontentProductId')]",
         "id": "[variables('_solutioncontentProductId')]",
+        "icon": "<svg id=\"d4e9f9a0-1b2c-4d4e-9f6a-7b8c9d0e1f2a\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 50\" width=\"75px\" height=\"75px\"><text x=\"10\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"24\" font-weight=\"bold\" fill=\"#000000\">Tacit</text><text x=\"70\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"24\" font-weight=\"bold\" fill=\"#FF0000\">Red</text><text x=\"120\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#555555\">by Data443</text></svg>",
         "contentId": "[variables('_solutionId')]",
         "parentId": "[variables('_solutionId')]",
         "source": {
