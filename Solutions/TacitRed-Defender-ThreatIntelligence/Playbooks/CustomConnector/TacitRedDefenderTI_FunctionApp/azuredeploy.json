@@ -15,13 +15,20 @@
         "description": "URL to the Function App code zip file"
       },
       "defaultValue": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Solutions/TacitRed-Defender-ThreatIntelligence/Package/functionCode.zip"
+    },
+    "workspace": {
+      "type": "string",
+      "metadata": {
+        "description": "Workspace name for Log Analytics where Microsoft Sentinel is setup"
+      }
     }
   },
   "variables": {
     "functionAppName": "[concat(parameters('FunctionAppName'), uniqueString(resourceGroup().id))]",
     "hostingPlanName": "[concat('plan-', variables('functionAppName'))]",
     "storageAccountName": "[concat('st', uniqueString(resourceGroup().id))]",
-    "appInsightsName": "[concat('appi-', variables('functionAppName'))]"
+    "appInsightsName": "[concat('appi-', variables('functionAppName'))]",
+    "workspaceResourceId": "[resourceId('microsoft.OperationalInsights/Workspaces', parameters('workspace'))]"
   },
   "resources": [
     {
