@@ -367,6 +367,8 @@
                 }
               },
               "tags": {
+                "hidden-SentinelTemplateName": "VaikoraToCrowdStrike",
+                "hidden-SentinelTemplateVersion": "3.0.0",
                 "hidden-SentinelWorkspaceId": "[[variables('workspaceResourceId')]"
               }
             },
